@@ -1,0 +1,47 @@
+.body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35)),
+    url("../../assets/home_bg.png");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.body div {
+  width: 40%;
+  text-align: center;
+}
+
+.body h1 {
+  font-family: Grange, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  line-height: 50px;
+  letter-spacing: 0.7px;
+}
+
+.body p {
+  font-weight: 400;
+  font-size: 18px;
+  width: 80%;
+  margin: 0 auto ;
+  padding: 0 0 10px;
+}
+
+.body a {
+  border: none;
+  outline: none;
+  background-color: #c3edff;
+  border-radius: 10px;
+  padding: 14px 40px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+}

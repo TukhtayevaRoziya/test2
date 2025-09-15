@@ -1,0 +1,87 @@
+.body{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.55)),
+    url("../../assets/final_bg.png");
+    background-size: cover;
+    color: white;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body h1{
+    letter-spacing: 1px;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.body p{
+    width: 50%;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: .8px;
+    margin-bottom: 2rem;
+}
+
+.body a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 14px 30px;
+}
+
+.last{
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.last_main{
+    width: 30%;
+    background-color: #EEF7FB;
+    border-radius: 10px;
+    padding: 40px 60px;
+}
+
+.last_main h1{
+    font-weight: 600;
+    letter-spacing: .7px;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.last_main p{
+    letter-spacing: .9px;
+    text-align: left;
+}
+
+.img{
+background-image: url(../../assets/final.png);
+height: 80%;
+background-size: cover;
+background-position: center center;
+text-align: right;
+border-radius: 10px;
+}
+
+.img svg{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.box h1{
+font-size: 24px;
+font-weight: 600;
+margin-top: 1rem;
+}
+
+.box p{
+    font-size: 18px;
+}
+
+.box{
+    width: 30%;
+}
